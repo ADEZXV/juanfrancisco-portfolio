@@ -1,0 +1,97 @@
+.gradient-background {
+  background: linear-gradient(300deg,
+  #89d6fb,	
+  #02a9f7,	
+  #02577a,	
+  #01303f );
+  background-size: 180% 180%;
+  animation: gradient-animation 16s ease infinite;
+}
+
+#name {
+  font-size: 60px;
+}
+
+#summary {
+  font-size: 30px;
+}
+
+#hello {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 200px;
+}
+
+#title-name {
+  background-color: #dcdedd;
+  
+}
+
+
+div {
+  display: block;
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.glow-button {
+  --box-shadow-color: black;
+  box-shadow: 0 0 30px var(--box-shadow-color);
+}
+
+
+.btn-danger.glow-button {
+  --box-shadow-color: #FF204E;
+}
+
+
+
+.btn-lg {
+  margin: 1em;
+}
+
+ .nav-item {color: #dcdedd;}
+
+ h3 {font-size: 30px;}
+ 
+ #contact {color: #dcdedd;}

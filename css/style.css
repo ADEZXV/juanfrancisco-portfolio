@@ -76,13 +76,17 @@ body {
 }
 
 .glow-button {
-  --box-shadow-color: black;
+  --box-shadow-color: rgb(255, 0, 234);
   box-shadow: 0 0 30px var(--box-shadow-color);
 }
 
 
 .btn-danger.glow-button {
-  --box-shadow-color: #FF204E;
+  background: #ec008c;
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  color: #fff;
+  border: 3px solid #eee;
 }
 
 .glow-button:hover {

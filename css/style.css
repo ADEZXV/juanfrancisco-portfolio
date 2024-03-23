@@ -6,6 +6,7 @@
   #01303f );
   background-size: 180% 180%;
   animation: gradient-animation 16s ease infinite;
+
 }
 
 #name {
@@ -17,11 +18,11 @@
 }
 
 #hello {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @keyframes gradient-animation {
@@ -84,14 +85,17 @@ body {
   --box-shadow-color: #FF204E;
 }
 
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 
 
 .btn-lg {
   margin: 1em;
 }
 
- .nav-item {color: #dcdedd;}
 
- h3 {font-size: 30px;}
+
+ h3 {font-size: 20px;}
  
- #contact {color: #dcdedd;}
